@@ -170,3 +170,8 @@ st.write("**Axe d'amélioration : Exploration des facteurs de retard spécifique
 st.write('Notre analyse actuelle met en lumière la prévalence des retards de check-out de courte durée. Cependant, pour optimiser davantage notre service, nous pourrions envisager')
 st.write('une analyse plus approfondie des facteurs spécifiques qui influencent ces retards. Une consolidation des données pour explorer les impacts des marques de véhicules,')
 st.write('de la puissance, du type de moteur et de la motorisation pourrait apporter des informations précieuses pour des améliorations ciblées.')
+st.write('')
+st.write("Malheureusement, en raison de l'absence d'informations sur les revenus des propriétaires, nous ne pouvons pas quantifier précisément l'impact financier de la nouvelle fonctionnalité. ")
+st.write('Cependant, notre analyse approfondie des retards et des annulations met en lumière des tendances significatives qui peuvent aider à prendre des décisions éclairées.')
+st.write('Nous avons répondu de manière satisfaisante à plusieurs questions du projet, en identifiant les locations problématiques et en examinant la fréquence des retards.')
+st.write('Cette analyse constitue une base solide pour des améliorations futures visant à optimiser le service.')

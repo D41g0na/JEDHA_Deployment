@@ -117,8 +117,8 @@ min_delay.loc[:, "impacted_by_delay"] = (min_delay["delay_at_checkout_in_minutes
 st.write('**Y a-t-il beaucoup de locations impactés par les retards de check-out?**')
 fig = px.histogram(min_delay, x = 'impacted_by_delay', color= 'checkin_type', text_auto =True).update_xaxes(categoryorder= 'total descending')
 st.plotly_chart(fig)
-st.write('Nous pouvons constater que seulement 270 locations sont impactés, soit 1,27% des locations totales.')
-st.write('6,8% des locations ayant du retard ont été faite par le système connect, dont 0,37% dans les locations impactées par le delais.')
+st.write('Nous pouvons constater que seulement 270 locations sont impactées, soit 1,27% des locations totales.')
+st.write('6,8% des locations ayant du retard ont été faite par le système connect, dont 0,37% dans les locations impactées par le délais.')
 
 st.write('')
 st.write('')

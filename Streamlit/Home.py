@@ -1,13 +1,16 @@
 import streamlit as st
 import pandas as pd
 from PIL import Image
+import os
+
+port = int(os.environ.get("PORT", 8501))
+st.set_option('server.port', port)
 
 st.set_page_config(
     page_title="GetAround_Dashboard",
     page_icon="une-analyse.png",
     layout="wide",
 )
-
 
 def main():
     st.header("HOME PAGE")

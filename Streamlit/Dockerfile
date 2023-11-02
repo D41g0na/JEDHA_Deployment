@@ -7,5 +7,4 @@ RUN pip install -r /dependencies/requirements.txt
 
 COPY . .
 
-
 CMD streamlit run "Home.py" 

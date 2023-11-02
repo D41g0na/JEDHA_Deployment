@@ -5,11 +5,9 @@ import streamlit as st
 from fastapi.responses import JSONResponse
 import io
 import requests
-import logging
 import joblib
 import os
 import shutil
-from typing import List
 
 st.set_page_config(
     page_title="GetAround_Dashboard",

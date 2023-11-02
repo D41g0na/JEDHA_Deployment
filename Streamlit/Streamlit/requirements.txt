@@ -6,9 +6,7 @@ seaborn
 plotly
 uvicorn
 fastapi
-pydantic
 xgboost
-python-multipart
 joblib
 scikit-learn
 

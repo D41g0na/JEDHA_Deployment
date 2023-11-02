@@ -44,11 +44,11 @@ if uploaded_file:
             # Créez un objet BytesIO à partir du texte CSV
             csv_file = io.BytesIO(csv_data.encode())
             # Appel à l'API FastAPI pour la prédiction sur une seule ligne
-            response = requests.post(f"api_url + f"/{selected_row}"", files={"file": ("data.csv", csv_file)})
+            response = requests.post(f"{api_url}/{selected_row}", files={"file": ("data.csv", csv_file)})
 
             if response.status_code == 200:
                 result= response.json()
-                pred = result["predictions"][0]
+                pred = result["predictions"]
 
                 st.write("Résultat de tarification : ", pred)
     

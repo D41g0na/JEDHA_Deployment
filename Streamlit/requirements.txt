@@ -1,6 +1,5 @@
 fastapi
 joblib
-logging
 matplotlib
 numpy
 pandas

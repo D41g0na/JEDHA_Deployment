@@ -1,3 +1,3 @@
 build:
-  docker:
-    web: Dockerfile
+  buildpacks:
+    - python: 3.11.5

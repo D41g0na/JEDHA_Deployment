@@ -34,6 +34,7 @@ if uploaded_file:
 
     # Sélection de la ligne pour la prédiction
     selected_row = st.number_input("Sélectionner l'indice de la ligne à prédire (0 à {}):".format(len(df)-1), min_value=0, max_value=len(df)-1)
+    api_url = "https://getarounddashboard-heroku-d14de169686a.herokuapp.com/predict"
 
     if st.button("Effectuer la prédiction"):
         if 0 <= selected_row < len(df):
@@ -43,7 +44,7 @@ if uploaded_file:
             # Créez un objet BytesIO à partir du texte CSV
             csv_file = io.BytesIO(csv_data.encode())
             # Appel à l'API FastAPI pour la prédiction sur une seule ligne
-            response = requests.post(f"http://localhost:4000/predict/{selected_row}", files={"file": ("data.csv", csv_file)})
+            response = requests.post(f"api_url + f"/{selected_row}"", files={"file": ("data.csv", csv_file)})
 
             if response.status_code == 200:
                 result= response.json()

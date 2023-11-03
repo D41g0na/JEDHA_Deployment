@@ -11,7 +11,9 @@ This is a mandatory project for my Data Collection and Management certification:
 
 ### Prerequisites
 
-
+pip install -r requirements.txt
+Docker
+Credentials for AWS S3
 
 
 ### Author

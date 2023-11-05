@@ -2,7 +2,7 @@
 docker build . -t getaround_dashboard
 
 # Create new app on Heroku
-#heroku create getarounddashboard
+heroku create getarounddashboard
 
 # Login to Heroku
 heroku container:login

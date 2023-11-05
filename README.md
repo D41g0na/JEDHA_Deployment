@@ -19,7 +19,7 @@ This is a mandatory project for my Data Collection and Management certification:
 Once you have the prerequisites, you can run:
 
 - Local Installation: to run the application locally, navigate to the "streamlit" directory and execute the following command: './run.sh'.
-- Heroku Deployment: to deploy the application on Heroku, go to the "dasboard" directoru and execute the following commande: './heroku.sh"
+- Heroku Deployment: to deploy the application on Heroku, go to the "dashboard" directoru and execute the following commande: './heroku.sh"
 
 ### Author
 

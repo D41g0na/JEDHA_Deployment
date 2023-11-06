@@ -13,6 +13,7 @@ This is a mandatory project for my Data Collection and Management certification:
 
 - pip install -r requirements.txt
 - Docker
+- AWS crédentials
 
 ### Installation
 

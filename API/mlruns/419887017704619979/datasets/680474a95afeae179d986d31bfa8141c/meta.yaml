@@ -1,0 +1,13 @@
+digest: c0baf50e
+name: dataset
+profile: '{"num_rows": 3099, "num_elements": 37188}'
+schema: '{"mlflow_colspec": [{"type": "long", "name": "mileage"}, {"type": "long",
+  "name": "engine_power"}, {"type": "string", "name": "fuel"}, {"type": "string",
+  "name": "paint_color"}, {"type": "string", "name": "car_type"}, {"type": "boolean",
+  "name": "private_parking_available"}, {"type": "boolean", "name": "has_gps"}, {"type":
+  "boolean", "name": "has_air_conditioning"}, {"type": "boolean", "name": "automatic_car"},
+  {"type": "boolean", "name": "has_getaround_connect"}, {"type": "boolean", "name":
+  "has_speed_regulator"}, {"type": "boolean", "name": "winter_tires"}]}'
+source: '{"tags": {"mlflow.user": "Daigona", "mlflow.source.name": "train.py", "mlflow.source.type":
+  "LOCAL"}}'
+source_type: code

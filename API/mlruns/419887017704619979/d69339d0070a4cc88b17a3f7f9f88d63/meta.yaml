@@ -1,0 +1,15 @@
+artifact_uri: file:///F:/Document/JEDHA/Projet_Getaround/JEDHA_Deployment_heroko_version/MLFLOW/local/mlruns/419887017704619979/d69339d0070a4cc88b17a3f7f9f88d63/artifacts
+end_time: 1699274424077
+entry_point_name: ''
+experiment_id: '419887017704619979'
+lifecycle_stage: active
+run_id: d69339d0070a4cc88b17a3f7f9f88d63
+run_name: ambitious-smelt-511
+run_uuid: d69339d0070a4cc88b17a3f7f9f88d63
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1699274389746
+status: 3
+tags: []
+user_id: Daigona

@@ -1,0 +1,13 @@
+aliases: []
+creation_timestamp: 1699274423968
+current_stage: None
+description: null
+last_updated_timestamp: 1699274423968
+name: price_car_model
+run_id: d69339d0070a4cc88b17a3f7f9f88d63
+run_link: null
+source: file:///F:/Document/JEDHA/Projet_Getaround/JEDHA_Deployment_heroko_version/MLFLOW/local/mlruns/419887017704619979/d69339d0070a4cc88b17a3f7f9f88d63/artifacts/price_car
+status: READY
+status_message: null
+user_id: null
+version: 1

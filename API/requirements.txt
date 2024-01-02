@@ -5,7 +5,7 @@ typing
 pandas 
 gunicorn 
 openpyxl 
-mlflow=2.9.2
+mlflow
 boto3 
 scikit-learn
 python-multipart
